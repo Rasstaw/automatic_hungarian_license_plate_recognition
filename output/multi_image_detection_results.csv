@@ -1,0 +1,2 @@
+Image Name,Vehicle b_box,Car confidence,License Plate b_box,License Plate Text,b_box confidence,Text confidence
+20240526_151442.jpg,"['1853.46', '1196.74', '2035.89', '1370.25']",0.32,"['564.49', '1685.12', '914.07', '1814.33']",KJZ441,0.64,0.27
