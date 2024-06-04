@@ -1,13 +1,20 @@
+import subprocess
+import sys
+import tempfile
 import streamlit as st
 import numpy as np
 from PIL import Image, ExifTags
 from ultralytics import YOLO
-import cv2
 import easyocr
 import pandas as pd
 import uuid
 import os
 import csv
+from util import get_car, read_lp, write_csv
+from scipy.interpolate import interp1d
+import cv2
+from visualize import visualize  # Import the visualize function
+import git
 
 st.set_page_config(
     page_title="Automatic Hungarian License Plate Recognition",
