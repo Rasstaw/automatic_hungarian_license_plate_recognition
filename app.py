@@ -455,7 +455,7 @@ def main():
         # handle_image_input(img)
 
     elif app_mode == "Run on Video":
-        st.error("Video recognition mode is not yet implemented.")
+        st.error("due to memory space restrictions Video recognition mode is not available on this Limited version.")
 
 
 if __name__ == "__main__":
